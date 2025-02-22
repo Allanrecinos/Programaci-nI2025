@@ -1,0 +1,45 @@
+Allan Enrique Recinos Castillo ------ 0907-23-7379
+Curso de Git y GitHub desde Cero
+Este video es un curso práctico donde aprenderás a usar Git y GitHub, dos herramientas súper importantes para programadores y desarrolladores.
+¿Qué aprenderás?
+¿Qué es Git?: Es un sistema para guardar los cambios en tus proyectos y trabajar en equipo sin perder información. También aprenderás a instalarlo.
+Comandos básicos: Te enseñan cómo crear un proyecto con `git init`, guardar cambios con `git add` y `git commit`, y subir tu trabajo con `git push`.
+Ramas (branches): Son versiones diferentes de tu proyecto para probar nuevas cosas sin afectar el original.
+Resolver conflictos: Cuando varias personas editan el mismo archivo, a veces hay errores. Aquí aprenderás cómo solucionarlos.
+¿Qué es GitHub? Es un sitio web donde puedes guardar tu código y colaborar con otras personas en proyectos.
+Preguntas
+1. ¿Qué es Git?
+Git es un sistema de control de versiones que permite gestionar cambios en el código de un proyecto. Con Git, puedes llevar un historial de modificaciones, colaborar con otros desarrolladores y evitar perder información cuando trabajas en equipo.
+2. ¿Cuáles son los comandos más importantes y para qué sirven?
+git init → Inicia un repositorio Git en una carpeta.
+git clone [URL] → Descarga un repositorio desde GitHub a tu computadora.
+git add [archivo] → Agrega archivos a la "zona de preparación" (staging).
+git commit -m "mensaje" → Guarda los cambios en el historial de versiones.
+git push → Sube los cambios al repositorio remoto (GitHub).
+git pull → Descarga cambios desde el repositorio remoto al local.
+git status → Muestra el estado actual de los archivos en el repositorio.
+git branch → Muestra las ramas disponibles en el repositorio.
+git checkout -b [nombre] → Crea y cambia a una nueva rama.
+git merge [rama] → Une los cambios de una rama a otra.
+git reset --hard → Revierte cambios en el repositorio local.
+3. ¿Cuál es la diferencia entre Git y GitHub?
+Git → Es una herramienta que funciona en tu computadora para gestionar versiones del código.
+GitHub → Es una plataforma en línea donde puedes guardar y compartir tus proyectos Git con otras personas.
+4. Enumere los comandos para subir cambios a un repositorio.
+git add . → Agrega todos los archivos modificados al staging.
+git commit -m "Descripción del cambio" → Guarda los cambios en el historial.
+git push origin [rama] → Sube los cambios a la rama en GitHub.
+5. ¿Qué es una branch?
+Una branch (rama) es una versión independiente del proyecto. Se usa para trabajar en nuevas características sin afectar el código principal. Luego, se pueden combinar los cambios con git merge.
+6. ¿Cuál es la diferencia entre un repositorio local y un repositorio remoto?
+Repositorio local → Es el repositorio que está en tu computadora y donde haces cambios antes de subirlos.
+Repositorio remoto → Es el repositorio guardado en una plataforma como GitHub, donde puedes compartir tu código y colaborar con otros.
+7. Comandos básicos para:
+Inicializar un repositorio: git init
+Descargar un repositorio: git clone [URL]
+Agregar archivos a un repositorio local: git add [archivo] o git add .
+Confirmar cambios en un repositorio local: git commit -m "mensaje"
+Subir cambios a un repositorio remoto: git push origin [rama]
+Revertir cambios en una branch:
+Para deshacer cambios antes de un commit: git checkout -- [archivo]
+Para deshacer un commit específico: git reset --hard [commit]
